@@ -3,7 +3,7 @@ GetTime
 
 Node.js app to time calls to REST API.
 
-Need to make a bunch of simple GET requests and see how long they take?  Create a json file for each suite of calls you want to make and GetTime will tell you the shortest, longest and average lengths.
+Need to make a bunch of simple GET requests and see how long they take?  Create a json file for each suite of calls you want to make and GetTime will tell you the shortest, longest and average lengths.  This version is https only.
 
 * [Setup](#setup)
 * [Configuration](#configuration)
@@ -11,15 +11,12 @@ Need to make a bunch of simple GET requests and see how long they take?  Create 
 * [Example](#example)
 
 ## Setup
-GetTime uses winston for logging.  Automated setup in packages.json so just run:
+Since this is a node app it is assumed that you have Node and npm installed.  GetTime uses winston for logging.  Automated setup is in packages.json so just run:
 ```bash
 npm install
 ```
 
 ## Configuration
-```bash
-node GetTime.js configuration.json
-```
 
 Create a json file for each run you want to do.
 ```js
@@ -50,7 +47,7 @@ port number is optional. Default is 443.
 
 headers are optional.  Default is none.
 
-GetTime will make a GET request for each entry in the params array and the path will be host + [port] + path + param
+GetTime will make a GET request for each entry in the params array and the path will be host + [port] + path + param.  This example will make 10 Get requests to google and time the successful results.
 
 ## Usage
 It's all command line:
