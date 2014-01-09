@@ -1,0 +1,27 @@
+{
+  "name": "GetTime",
+  "version": "0.0.0",
+  "description": "Node.js app to time calls to REST API ",
+  "main": "GetTime.js",
+  "dependencies": {
+    "winston": "~0.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gangstead/GetTime.git"
+  },
+  "keywords": [
+    "node",
+    "rest"
+  ],
+  "author": "Gangstead",
+  "license": "GPL2",
+  "bugs": {
+    "url": "https://github.com/gangstead/GetTime/issues"
+  },
+  "homepage": "https://github.com/gangstead/GetTime"
+}

@@ -1,0 +1,16 @@
+{
+	"host": "www.google.com",
+	"path": "/search?q=",
+	"params": [
+		"gangstead",
+		"github",
+		"gangstead+github",
+		"reddit",
+		"whales",
+		"gonzohacker",
+		"iamdevloper",
+		"nodejs",
+		"npm",
+		"camp"
+	]
+}
