@@ -43,5 +43,7 @@ Create a json file for each run you want to do.
 	}
 ```
 port number is optional. Default is 443.
+
 headers are optional.  Default is none.
+
 GetTime will make a GET request for each entry in the params array and the path will be host + [port] + path + param
